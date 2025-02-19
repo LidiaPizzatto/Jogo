@@ -1,7 +1,7 @@
 
 
 
-let jogador1 = prompt ('Como gostaria de ser chamado?');
+let jogador1 = prompt ('Como você se chama?');
 let range = prompt ('Escolha o range que quer adivinha (ex. de 1 a 100). De 1 a:' );
 
 let listaDeNumerosSorteados = [];
