@@ -2,7 +2,7 @@
 
 
 let jogador1 = prompt ('Como gostaria de ser chamado?');
-let range = prompt ('Escolha o Range que quer brincar de 1 a:' );
+let range = prompt ('Escolha o range que quer adivinha (ex. de 1 a 100). De 1 a:' );
 
 let listaDeNumerosSorteados = [];
 let numeroSecreto = GerarNumeroSecreto();
@@ -16,7 +16,7 @@ function exibirTextoNaTela(tag, texto){
 
 function primeiraMensagem(){
 exibirTextoNaTela('h1', 'Jogo do número secreto');
-exibirTextoNaTela('p', ` ${jogador1}, escolha um número entre 1 a ${range}`);
+exibirTextoNaTela('p', ` ${jogador1}, Escolha um número entre 1 a ${range}`);
 }
 primeiraMensagem()
 
